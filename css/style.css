@@ -1,15 +1,31 @@
 body {
     width: 1400px;
     height: 1010px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    margin: 0 383px;
 }
 nav {
     width: 1020px;
     height: 60px;
     background-color: black;
 }
+nav ul li {
+    color: white;
+    display: inline-block;
+}
+header {
+    text-align: center;
+}
 header:not(#social) {
     width: 1020px;
     background-color: #090401;
+}
+h1 {
+    font-size: 133px;
+}
+h3 {
+    font-size: 18px;
 }
 #titre {
     width: 1020px;
@@ -21,20 +37,31 @@ header:not(#social) {
     height: 60px;
     background-color: #e8e8e8;
 }
+main {
+    background-color: white;
+    width: 1020px;
+}
 main > p {
-    width: 900px;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
     height: 90px;
-
+    margin: auto;
+    text-align: center;
+    width: 900px;
 }
 article{
     display: inline-block;
     width: 260px;
     height: 480px;
+    margin-left: 3.48em;
 }
 article img {
     display: inline-block;
     width: 260px;
     height: 195px;
+}
+article p {
+    font-size: 14px;
 }
 p {
     color: #7a7a7a;
