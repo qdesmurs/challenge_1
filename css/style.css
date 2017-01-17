@@ -5,6 +5,9 @@ body {
     background-repeat: no-repeat;
     margin: 0 383px;
 }
+* {
+    font-family: 'Bitter', serif;
+}
 nav {
     width: 1020px;
     height: 60px;
@@ -13,6 +16,8 @@ nav {
 nav ul li {
     color: white;
     display: inline-block;
+    margin-right: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
 }
 header {
     text-align: center;
@@ -23,9 +28,15 @@ header:not(#social) {
 }
 h1 {
     font-size: 133px;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 h3 {
     font-size: 18px;
+}
+header h3 {
+    margin-top: 4em;
 }
 #titre {
     width: 1020px;
@@ -48,12 +59,14 @@ main > p {
     margin: auto;
     text-align: center;
     width: 900px;
+    font-size: 18px;
 }
 article{
     display: inline-block;
     width: 260px;
     height: 480px;
     margin-left: 3.48em;
+    margin-top: 5em;
 }
 article img {
     display: inline-block;
