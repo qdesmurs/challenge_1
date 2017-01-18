@@ -16,9 +16,21 @@ nav {
 nav ul li {
     color: white;
     display: inline-block;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: bold;
     margin-right: 1.5em;
-    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 13px;
 }
+i { border: 4px solid #7a7a7a;
+    border-radius: 3em;
+    color: #7a7a7a;
+    margin: 14px 2px 2px;
+    padding: 5px;
+}
+#fb {
+    padding: 5px 10px;
+}
+
 header {
     text-align: center;
 }
@@ -31,6 +43,7 @@ h1 {
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
+    padding-top: 30px;
 }
 h3 {
     font-size: 18px;
@@ -60,6 +73,12 @@ main > p {
     text-align: center;
     width: 900px;
     font-size: 18px;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+span {
+    display: block;
+    clear: both;
 }
 article{
     display: inline-block;
