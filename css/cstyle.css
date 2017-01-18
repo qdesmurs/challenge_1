@@ -1,0 +1,98 @@
+body {
+    width: 1400px;
+    height: 1010px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    margin: -16px 383px 0;
+    font-family: 'Bitter', serif;
+}
+
+nav {
+    width: 1020px;
+    height: 60px;
+    background-color: black;
+}
+nav ul li a {
+    color: white;
+    display: inline-block;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 13px;
+    font-weight: bold;
+}
+.iconlist {
+    margin: auto;
+}
+.selected {
+    color: #cfa205;
+}
+i {
+    border: 4px solid #7a7a7a;
+    border-radius: 3em;
+    color: #7a7a7a;
+    margin: 14px 2px 2px;
+    padding: 5px;
+}
+#fb {
+    padding: 5px 9px;
+}
+
+header {
+    text-align: center;
+}
+header:not(#social) {
+    width: 1020px;
+    background-color: #090401;
+}
+h1 {
+    font-size: 133px;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+h2 {
+    font-size: 18px;
+}
+header h2 {
+    margin-top: 4em;
+}
+#titre {
+    width: 1020px;
+    height: 320px;
+    color: #cfa205;
+}
+#social {
+    width: 1020px;
+    height: 60px;
+    background-color: #e8e8e8;
+}
+main {
+    background-color: white;
+    width: 1020px;
+}
+form {
+    margin: 0 5em;
+    padding: 5em 20em;
+
+}
+legend {
+    font-size: 18px;
+}
+label {
+    display: inline-block;
+}
+input {
+    display: inline-block;
+}
+#age {
+    width: 50px;
+}
+#number {
+    width: 10em;
+}
