@@ -105,3 +105,27 @@ p {
     color: #7a7a7a;
     line-height: 24px;
 }
+
+
+form {
+    padding: 5em 19em;
+}
+fieldset {
+    height: 195px;
+    width: 403px;
+}
+legend {
+
+}
+label {
+    display: inline-block;
+    width: 121px;
+}
+input {
+
+}
+
+#age {
+    width: 60px;
+    margin-right: 10em;
+}

@@ -79,7 +79,9 @@ main {
 form {
     margin: 0 5em;
     padding: 5em 20em;
-
+}
+fieldset {
+    
 }
 legend {
     font-size: 18px;
