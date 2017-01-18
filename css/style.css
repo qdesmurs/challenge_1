@@ -3,11 +3,10 @@ body {
     height: 1010px;
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
-    margin: 0 383px;
-}
-* {
+    margin: -16px 383px 0;
     font-family: 'Bitter', serif;
 }
+
 nav {
     width: 1020px;
     height: 60px;
@@ -25,6 +24,9 @@ li {
     margin-right: 1.5em;
     margin-top: 13px;
     font-weight: bold;
+}
+.iconlist {
+    margin: auto;
 }
 .selected {
     color: #cfa205;
@@ -54,10 +56,10 @@ h1 {
     font-weight: lighter;
     padding-top: 30px;
 }
-h3 {
+h2 {
     font-size: 18px;
 }
-header h3 {
+header h2 {
     margin-top: 4em;
 }
 #titre {
@@ -86,11 +88,7 @@ main > p {
     text-align: center;
     width: 900px;
 }
-span {
-    display: block;
-    clear: both;
-}
-article{
+article {
     display: inline-block;
     width: 260px;
     height: 480px;
@@ -99,8 +97,6 @@ article{
 }
 article img {
     display: inline-block;
-    width: 260px;
-    height: 195px;
 }
 article p {
     font-size: 14px;
