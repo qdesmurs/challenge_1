@@ -56,6 +56,9 @@ h1 {
     font-weight: lighter;
     padding-top: 30px;
 }
+h1:hover {
+    color: yellow;
+}
 h2 {
     font-size: 18px;
 }
@@ -111,21 +114,26 @@ form {
     padding: 5em 19em;
 }
 fieldset {
-    height: 195px;
-    width: 403px;
+    width: 25%;
 }
 legend {
-
+    text-decoration: underline;
+    font-size: 18px;
 }
 label {
+    position: relative;
     display: inline-block;
-    width: 121px;
+    width: 9em;
 }
 input {
-
+    position: relative;
+    width: 57%;
+}
+input[type="submit"] {
+    width: 25%;
 }
 
 #age {
-    width: 60px;
+    width: 5em;
     margin-right: 10em;
 }
