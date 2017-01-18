@@ -4,7 +4,6 @@ body {
     font-family: 'Bitter', serif;
     background-size: cover;
 }
-
 nav {
     width: 1020px;
     height: 60px;
@@ -87,6 +86,7 @@ main {
     background-color: white;
     width: 1020px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 main > p {
     border-bottom: 1px solid #e8e8e8;
