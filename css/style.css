@@ -13,22 +13,31 @@ nav {
     height: 60px;
     background-color: black;
 }
-nav ul li {
+nav ul li a {
     color: white;
     display: inline-block;
     font-family: "Josefin Sans",sans-serif;
     font-weight: bold;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
     margin-right: 1.5em;
     margin-top: 13px;
+    font-weight: bold;
 }
-i { border: 4px solid #7a7a7a;
+.selected {
+    color: #cfa205;
+}
+i {
+    border: 4px solid #7a7a7a;
     border-radius: 3em;
     color: #7a7a7a;
     margin: 14px 2px 2px;
     padding: 5px;
 }
 #fb {
-    padding: 5px 10px;
+    padding: 5px 9px;
 }
 
 header {
@@ -67,14 +76,15 @@ main {
 }
 main > p {
     border-bottom: 1px solid #e8e8e8;
+    font-size: 18px;
     font-weight: bold;
     height: 90px;
+    line-height: 25px;
     margin: auto;
+    padding-bottom: 1em;
+    padding-top: 2em;
     text-align: center;
     width: 900px;
-    font-size: 18px;
-    padding-top: 3em;
-    padding-bottom: 1em;
 }
 span {
     display: block;
@@ -97,4 +107,5 @@ article p {
 }
 p {
     color: #7a7a7a;
+    line-height: 24px;
 }
